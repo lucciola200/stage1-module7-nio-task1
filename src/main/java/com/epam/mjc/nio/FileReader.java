@@ -28,7 +28,6 @@ public class FileReader {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("das");
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
